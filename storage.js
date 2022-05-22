@@ -1,6 +1,10 @@
 
  var novel = [
    {
+     title: "A Gal Who Looks Good in an Apron is Unfair!",
+     sourceLink: "https://www.noveltime.ml/series/A-Gal-Who-Looks-Good-In-An-Apron-Is-Unfair.html"
+   },
+   {
      title: "Gimai Seikatsu",
      sourceLink: "https://www.noveltime.ml/series/Gimai-Seikatsu-Light-Novel.html"
    },
