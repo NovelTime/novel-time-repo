@@ -1,11 +1,11 @@
 
   let novel = [
     {
-      title:"She Professed Herself The Pupil Of The Wiseman", sourceLink:"She-Professed-Herself-The-Pupil-Of-The-Wiseman-Light-Novel.html"
+      title:"She Professed Herself The Pupil Of The Wiseman", sourceLink:"https://www.noveltime.ml/She-Professed-Herself-The-Pupil-Of-The-Wiseman-Light-Novel.html"
     },
     {
           title:"Date This Super Cute Me!",
-         sourceLink:"Date-This-Super-Cute-Me.html"
+         sourceLink:"https://www.noveltime.ml/Date-This-Super-Cute-Me.html"
     }
 ];
 
