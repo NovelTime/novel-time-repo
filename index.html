@@ -25,6 +25,9 @@
        <ul class="navbar-nav">
          <li class="nav-item text-center"><a class="nav-link" href="#">Home</a></li>
          <li class="nav-item text-center"><a class="nav-link" href="list.html">Novels List</a></li>
+         <li class="nav-item text-center" style="position:relative;"><input class="form-control" type="search" name="s" id="s" placeholder="Search Novel" onkeyup="myFunction()"/>
+           <div id="sList"></div>
+         </li>
        </ul>
      </div>
    </div>
@@ -43,6 +46,16 @@
    
    <div class="container bg-primary rounded text-center">
      <h3 class="text-white">TRENDING NOVELS</h3>
+   </div>
+   
+   <div id="post1" class="container post">
+      
+      <article id="article_post">
+         <header class="container-fluid" id="title"><a href="https://www.noveltime.ml/series/Gimai-Seikatsu-Light-Novel.html">Gimai Seikatsu [EPUB][PDF]]</a></header>
+         <div class="container-fluid" id="cover"><img src="https://cdn.novelupdates.com/images/2021/01/Gimai-Seikatsu.jpg" alt="Cover"></div>
+         <div class="container-fluid" id="content"><p><i>This novel can be now downloaded for free. Enjoy this privilege to your heart content.</i></p><p><a href="https://www.noveltime.ml/series/Gimai-Seikatsu-Light-Novel.html" id="link">« Download Now »</a></p></div>
+      </article>
+      
    </div>
    
    <div id="post1" class="container post">
@@ -75,6 +88,47 @@
 </div>
 <!-- scripting -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="storage.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery-3.6.0.min.js"></script>
+<script>
+  var div = document.getElementById("sList");
+  for(var j in novel){
+    var p = document.createElement("p");
+    var sLink = document.createElement("a");
+    
+    sLink.setAttribute("href","");
+    
+    sLink.href = novel[j].sourceLink;
+    sLink.innerHTML = novel[j].title;
+    
+    p.appendChild(sLink);
+    div.appendChild(p);
+  }
+  
+  function myFunction() {
+    // Declare variables
+    var input, filter, div, p, a, i, txtValue;
+    input = document.getElementById('s');
+    filter = input.value.toUpperCase();
+    div = document.getElementById("sList");
+    p = div.getElementsByTagName('p');
+    
+    if(input.value != ""){
+      div.style.display = "block";
+    }else{
+      div.style.display = "none";
+    }
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < p.length; i++) {
+      a = p[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        p[i].style.display = "";
+      } else {
+        p[i].style.display = "none";
+      }
+    }
+  }
+</script>
 </body>
 </html>

@@ -1,5 +1,9 @@
 
-  let novel = [
+ var novel = [
+   {
+     title: "Gimai Seikatsu",
+     sourceLink: "https://www.noveltime.ml/series/Gimai-Seikatsu-Light-Novel.html"
+   },
     {
       title:"The Tunnel to Summer, the Exit of Goodbyes", sourceLink:"https://www.noveltime.ml/series/The-Tunnel-To-Summer-The-Exit-Of-Goodbyes-Light-Novel-Epub.html"
     },
