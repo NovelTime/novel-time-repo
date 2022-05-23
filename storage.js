@@ -1,6 +1,10 @@
 
  var novel = [
    {
+     title: "Bottom-Tier Character Tomozaki",
+     sourceLink: "https://www.noveltime.ml/series/Bottom-Tier-Character-Tomozaki-Light-Novel.html"
+   },
+   {
      title: "The Undetectable Strongest Job: Rule Breaker",
      sourceLink: "https://www.noveltime.ml/series/Rule-Breaker-Web-Novel.html"
    },
