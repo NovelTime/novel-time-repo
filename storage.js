@@ -1,6 +1,14 @@
 
  var novel = [
    {
+     title: "Aim the Deepest Part of the Different World Labyrinth",
+     sourceLink: "https://www.noveltime.ml/series/Aim-The-Deepest-Part-Of-The-Different-World-Labyrinth-Light-Novel.html"
+   },
+   {
+     title: "Wandering Witch: The Journey of Elaina",
+     sourceLink: "https://www.noveltime.ml/series/Majo-No-Tabitabi-Light-Nov.html"
+   },
+   {
      title: "A Gal Who Looks Good in an Apron is Unfair!",
      sourceLink: "https://www.noveltime.ml/series/A-Gal-Who-Looks-Good-In-An-Apron-Is-Unfair.html"
    },
