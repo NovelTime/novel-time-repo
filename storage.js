@@ -1,6 +1,10 @@
 
  var novel = [
    {
+     title: "How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?",
+     sourceLink: "https://www.noveltime.ml/series/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiancée-Like-Me-Light-Novel.html"
+   },
+   {
      title: "After I Lectured an Unfriendly Girl Who Doesn't Let Strangers Approach her, She Really Took a Liking to Me",
      sourceLink: "https://www.noveltime.ml/series/After-I-Lectured-An-Unfriendly-Girl-Light-Novel.html"
    },
