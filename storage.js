@@ -1,6 +1,10 @@
 
  var novel = [
    {
+     title: "The Undetectable Strongest Job: Rule Breaker",
+     sourceLink: "https://www.noveltime.ml/series/Rule-Breaker-Web-Novel.html"
+   },
+   {
      title: "How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?",
      sourceLink: "https://www.noveltime.ml/series/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiancée-Like-Me-Light-Novel.html"
    },
