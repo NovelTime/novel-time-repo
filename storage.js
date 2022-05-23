@@ -1,6 +1,14 @@
 
  var novel = [
    {
+     title: "After I Lectured an Unfriendly Girl Who Doesn't Let Strangers Approach her, She Really Took a Liking to Me",
+     sourceLink: "https://www.noveltime.ml/series/After-I-Lectured-An-Unfriendly-Girl-Light-Novel.html"
+   },
+   {
+     title: "I Became Friends with the Second Cutest Girl in My Class",
+     sourceLink: "https://www.noveltime.ml/series/I-Became-Friends-With-The-Second-Cutest-Girl-In-My-Class.html"
+   },
+   {
      title: "Aim the Deepest Part of the Different World Labyrinth",
      sourceLink: "https://www.noveltime.ml/series/Aim-The-Deepest-Part-Of-The-Different-World-Labyrinth-Light-Novel.html"
    },
