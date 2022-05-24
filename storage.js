@@ -1,6 +1,10 @@
 
  var novel = [
    {
+     title: "Tonari no Kimi de Atama ga Ippai",
+     sourceLink: "https://www.noveltime.ml/series/Tonari-No-Kimi-De-Atama-Ga-Ippai-Light-Novel.html"
+   },
+   {
      title: "Bottom-Tier Character Tomozaki",
      sourceLink: "https://www.noveltime.ml/series/Bottom-Tier-Character-Tomozaki-Light-Novel.html"
    },
